@@ -1,0 +1,59 @@
+/* Global styles for مطعم الباشا */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #fffbeb;
+  --color-brand-100: #fef3c7;
+  --color-brand-200: #fde68a;
+  --color-brand-300: #fcd34d;
+  --color-brand-400: #fbbf24;
+  --color-brand-500: #f59e0b;
+  --color-brand-600: #d97706;
+  --color-brand-700: #b45309;
+  --color-brand-800: #92400e;
+  --color-brand-900: #78350f;
+  --color-brand: #f59e0b;
+
+  --color-dark-50: #f6f6f6;
+  --color-dark-100: #e7e7e7;
+  --color-dark-200: #d1d1d1;
+  --color-dark-300: #b0b0b0;
+  --color-dark-400: #888888;
+  --color-dark-500: #6d6d6d;
+  --color-dark-600: #5d5d5d;
+  --color-dark-700: #4f4f4f;
+  --color-dark-800: #454545;
+  --color-dark-900: #3d3d3d;
+  --color-dark-950: #1a1a1a;
+  --color-dark: #1a1a1a;
+
+  /* Overriding indigo and slate to match brand */
+  --color-indigo-50: #fffbeb;
+  --color-indigo-100: #fef3c7;
+  --color-indigo-200: #fde68a;
+  --color-indigo-300: #fcd34d;
+  --color-indigo-400: #fbbf24;
+  --color-indigo-500: #f59e0b;
+  --color-indigo-600: #d97706;
+  --color-indigo-700: #b45309;
+  --color-indigo-800: #92400e;
+  --color-indigo-900: #78350f;
+
+  --color-slate-50: #f6f6f6;
+  --color-slate-100: #e7e7e7;
+  --color-slate-200: #d1d1d1;
+  --color-slate-300: #b0b0b0;
+  --color-slate-400: #888888;
+  --color-slate-500: #6d6d6d;
+  --color-slate-600: #5d5d5d;
+  --color-slate-700: #4f4f4f;
+  --color-slate-800: #454545;
+  --color-slate-900: #3d3d3d;
+  --color-slate-950: #1a1a1a;
+
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
